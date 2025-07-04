@@ -8,39 +8,44 @@ function Root() {
       <header className = "header">
         <h1>Smart Habit Tracker</h1>
       </header>
-      <div className="main-content">
-        <aside className="sidebar">
-          <ul>
-            <li>Dashboard</li>
-            <li>My Habits</li>
-            <li>Analytics</li>
-            <li>Settings</li>
-          </ul>
-        </aside>
-        <div className="dashboard">
-          <form className="new-habit-form">
-            <input type="text" />
-            <button>Add Habit</button>
-          </form>
-        </div>
-        <div className="habit-list">
-          <h2>My Habits</h2>
-          <ul>
-            <li>
-              <span>Drink Water</span>
-              <button>Complete</button>
-            </li>
-            <li>
-              <span>Exercise</span>
-              <button>Complete</button>
-            </li>
-            <li>
-              <span>Meditate</span>
-              <button>Complete</button>
-            </li>
-          </ul>
-        </div>
-      </div>
+       <div>
+         <aside className="sidebar">
+            <ul>
+              <li>Dashboard</li>
+              <li>My Habits</li>
+              <li>Analytics</li>
+              <li>Settings</li>
+            </ul>
+          </aside>
+               <div className="main-content">
+          <div className="dashboard">
+            <form className="new-habit-form">
+              <input type="text" />
+              <button>Add Habit</button>
+            </form>
+          </div>
+          <div className="habit-list">
+            <h2>My Habits</h2>
+            <ul>
+              <li>
+                <span>Drink Water</span>
+                <button>Complete</button>
+              </li>
+              <li>
+                <span>Exercise</span>
+                <button>Complete</button>
+              </li>
+              <li>
+                <span>Meditate</span>
+                <button>Complete</button>
+              </li>
+            </ul>
+          </div>
+               </div>
+       </div>
+      <footer className="footer">
+        <p>&copy; 2023 Smart Habit Tracker</p>
+      </footer>
     </div>
   )
 }
